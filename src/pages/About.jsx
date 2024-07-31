@@ -9,7 +9,7 @@ const About = () => {
             Why Choose us
           </span>
         </div>
-        <div className="flex flex-row w-full h-full justify-around items-center ">
+        <div className="flex flex-row w-full flex-wrap h-full justify-around items-center ">
           <div className="lg:w-[30%] flex flex-col justify-center items-center ">
             <div className="flex flex-row justify-center items-center w-full h-full px-8 py-2 gap-2">
               <span className="w-[10%] text-current text-start text-[#e4e4e4] text-2xl ">
