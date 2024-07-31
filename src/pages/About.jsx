@@ -6,7 +6,7 @@ const About = () => {
       <div className="flex flex-col w-full h-full">
         <div className=" flex flex-row justify-center items-center p-8"><span className="text-black text-center subpixel-antialiased text-4xl text-[#444] text-inherit w-[80%] border-b-2 border-inherit py-2">Why Choose us</span></div>
         <div className="flex flex-row w-full h-full justify-around items-center">
-          <div className="lg:w-[30%] flex flex-col justify-center items-center">
+          <div className="lg:w-[30%] flex flex-col justify-center items-center ">
             <div className="flex flex-row justify-center items-center w-full h-full px-8 py-2">
               <span className="w-[10%] text-current text-start text-[#e4e4e4] text-2xl ">01</span>
               <h2 className="w-[90%] text-black font-medium">End to end support</h2>

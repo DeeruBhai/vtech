@@ -10,7 +10,7 @@ const Services = () => {
         <div className="text-center w-full h-full flex flex-col item-center ">
           <h1 className="text-black font-weight-bold">Our Services</h1>
           <div className="flex flex-row flex-wrap  lg:p-8  md:p-8 gap-8  group w-full">
-            <div className="bg-dark/10 text-black flex-1 flex-grow border border-2 border-grey lg:w-[40%] md:w-[30%]  sm:w-[100%] sm:mx-auto duration-500 group-hover:blur-sm hover:!blur-none group-hover:scale-[0.85] hover:!scale-100  p-8 rounded-xl mix-blend-luminosity ">
+            <div className="bg-dark/10 text-black flex-1 flex-grow border border-2 border-grey lg:w-[40%] md:w-[30%]  sm:w-[100%] sm:mx-auto duration-500 group-hover:backdrop-blur-[2px]  hover:!blur-none group-hover:scale-[0.85] hover:!scale-100  p-8 rounded-xl mix-blend-luminosity ">
               <img src={electrical_img} alt="" className="h-[200px] w-full mx-auto  " />
               <h4 className="uppercase text-xl font-bold ">construction electrical and plumbing work new and AMC MAINTENANCE </h4>
               <ShowMore lines={1} className="text-sm leading-7 my-3 font-light opacity-50">
@@ -19,7 +19,7 @@ const Services = () => {
               <button className="bg-btn_primary py-2.5 px-8 rounded-full ">Get in Touch</button>
             </div>
 
-            <div className="bg-dark/10 text-black flex-1  flex-grow border border-2 border-grey lg:w-[40%] md:w-[30%]  sm:w-[100%] sm:mx-auto duration-500 group-hover:blur-sm hover:!blur-none group-hover:scale-[0.85] hover:!scale-100  p-8 rounded-xl mix-blend-luminosity ">
+            <div className="bg-dark/10 text-black flex-1  flex-grow border border-2 border-grey lg:w-[40%] md:w-[30%]  sm:w-[100%] sm:mx-auto duration-500 group-hover:backdrop-blur-[2px]  hover:!blur-none group-hover:scale-[0.85] hover:!scale-100  p-8 rounded-xl mix-blend-luminosity ">
               <img src={electrical_img} alt="" className="h-[200px] w-full mx-auto  " />
               <h4 className="uppercase text-xl font-bold ">CCTV INSTALLATION AND MAINTENANCE</h4>
               <ShowMore lines={1} className="text-sm leading-7 my-3 font-light opacity-50">
@@ -28,7 +28,7 @@ const Services = () => {
               <button className="bg-btn_primary py-2.5 px-8 rounded-full ">Get in Touch</button>
             </div>
 
-            <div className="bg-dark/10 text-black  flex-1 flex-grow border border-2 border-grey lg:w-[40%] md:w-[30%]  sm:w-[100%] sm:mx-auto duration-500 group-hover:blur-sm hover:!blur-none group-hover:scale-[0.85] hover:!scale-100  p-8 rounded-xl mix-blend-luminosity ">
+            <div className="bg-dark/10 text-black  flex-1 flex-grow border border-2 border-grey lg:w-[40%] md:w-[30%]  sm:w-[100%] sm:mx-auto duration-500 group-hover:backdrop-blur-[2px]  hover:!blur-none group-hover:scale-[0.85] hover:!scale-100  p-8 rounded-xl mix-blend-luminosity ">
               <img src={electrical_img} alt="" className="h-[200px] w-full mx-auto  " />
               <h4 className="uppercase text-xl font-bold ">HOME AUTOMATION SYSTEM INSTALLATION</h4>
               <ShowMore lines={1} className="text-sm leading-7 my-3 font-light opacity-50">
@@ -37,7 +37,7 @@ const Services = () => {
               <button className="bg-btn_primary py-2.5 px-8 rounded-full ">Get in Touch</button>
             </div>
 
-            <div className="bg-dark/10 text-black  flex-1 flex-grow border border-2 border-grey lg:w-[40%] md:w-[30%]  sm:w-[100%] sm:mx-auto duration-500 group-hover:blur-sm hover:!blur-none group-hover:scale-[0.85] hover:!scale-100  p-8 rounded-xl mix-blend-luminosity ">
+            <div className="bg-dark/10 text-black  flex-1 flex-grow border border-2 border-grey lg:w-[40%] md:w-[30%]  sm:w-[100%] sm:mx-auto duration-500 group-hover:backdrop-blur-[2px]  hover:!blur-none group-hover:scale-[0.85] hover:!scale-100  p-8 rounded-xl mix-blend-luminosity ">
               <img src={electrical_img} alt="" className="h-[200px] w-full mx-auto  " />
               <h4 className="uppercase text-xl font-bold ">AGRI AUTOMATION </h4>
               <ShowMore lines={1} className="text-sm leading-7 my-3 font-light opacity-50">
@@ -46,7 +46,7 @@ const Services = () => {
               <button className="bg-btn_primary py-2.5 px-8 rounded-full ">Get in Touch</button>
             </div>
 
-            <div className="bg-dark/10 text-black  flex-1 flex-grow  border border-2 border-grey lg:w-[40%] md:w-[30%]  sm:w-[100%] sm:mx-auto duration-500 group-hover:blur-sm hover:!blur-none group-hover:scale-[0.85] hover:!scale-100  p-8 rounded-xl mix-blend-luminosity ">
+            <div className="bg-dark/10 text-black  flex-1 flex-grow  border border-2 border-grey lg:w-[40%] md:w-[30%]  sm:w-[100%] sm:mx-auto duration-500 group-hover:backdrop-blur-[2px]  hover:!blur-none group-hover:scale-[0.85] hover:!scale-100  p-8 rounded-xl mix-blend-luminosity ">
               <img src={electrical_img} alt="" className="h-[200px] w-full mx-auto  " />
               <h4 className="uppercase text-xl font-bold "> ELECTRONIC ENCLOSURE DESIGNING AND MAKEING  </h4>
               <ShowMore lines={1} className="text-sm leading-7 my-3 font-light opacity-50">
@@ -55,7 +55,7 @@ const Services = () => {
               <button className="bg-btn_primary py-2.5 px-8 rounded-full ">Get in Touch</button>
             </div>
 
-            <div className="bg-dark/10 text-black flex-1 flex-grow   border border-2 border-grey lg:w-[40%] md:w-[30%]  sm:w-[100%] sm:mx-auto duration-500 group-hover:blur-sm hover:!blur-none group-hover:scale-[0.85] hover:!scale-100  p-8 rounded-xl mix-blend-luminosity ">
+            <div className="bg-dark/10 text-black flex-1 flex-grow   border border-2 border-grey lg:w-[40%] md:w-[30%]  sm:w-[100%] sm:mx-auto duration-500 group-hover:backdrop-blur-[2px]  hover:!blur-none group-hover:scale-[0.85] hover:!scale-100  p-8 rounded-xl mix-blend-luminosity ">
               <img src={electrical_img} alt="" className="h-[200px] w-full mx-auto  " />
               <h4 className="uppercase text-xl font-bold "> 3D MODELS PRINTING </h4>
               <ShowMore lines={1} className="text-sm leading-7 my-3 font-light opacity-50">
@@ -64,7 +64,7 @@ const Services = () => {
               <button className="bg-btn_primary py-2.5 px-8 rounded-full ">Get in Touch</button>
             </div>
 
-            <div className="bg-dark/10 text-black  flex-1 flex-grow  border border-2 border-grey lg:w-[40%] md:w-[30%]  sm:w-[100%] sm:mx-auto  duration-500 group-hover:blur-sm hover:!blur-none group-hover:scale-[0.85] hover:!scale-100  p-8 rounded-xl mix-blend-luminosity ">
+            <div className="bg-dark/10 text-black  flex-1 flex-grow  border border-2 border-grey lg:w-[40%] md:w-[30%]  sm:w-[100%] sm:mx-auto  duration-200 group-hover:backdrop-blur-[2px] hover:!blur-none group-hover:scale-[0.85] hover:!scale-100  p-8 rounded-xl mix-blend-luminosity ">
               <img src={electrical_img} alt="" className="h-[200px] w-full mx-auto  " />
               <h4 className="uppercase text-xl font-bold "> required based electronic hardware making </h4>
               <ShowMore lines={1} className="text-sm leading-7 my-3 font-light opacity-50">
