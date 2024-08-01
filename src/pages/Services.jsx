@@ -11,11 +11,11 @@ import { ShowMore } from "@re-dev/react-truncate";
 const Services = () => {
   return (
     <>
-      <div className="font-Poppins bg-white text-white w-full h-100 p-8">
+      <div className="font-Poppins  bg-gray-100 text-white w-full h-100 p-8">
         <div className="text-center w-full h-full flex flex-col item-center ">
           <h1 className="text-black font-weight-bold">Our Services</h1>
           <div className="flex flex-row flex-wrap  lg:p-8  md:p-8 gap-8  group w-full">
-            <div className="bg-dark/10 text-black  flex-grow   border-2 border-grey lg:w-[30%] md:w-[30%]  sm:w-[100%] sm:mx-auto duration-300 group-hover:darkblock-blur-[2px] hover:!blur-none group-hover:scale-[0.85] hover:!scale-100  p-8 rounded-xl  ">
+            <div className="bg-white text-black  flex-grow   border-2 border-grey lg:w-[30%] md:w-[30%]  sm:w-[100%] sm:mx-auto duration-300 group-hover:darkblock-blur-[2px] hover:!blur-none group-hover:scale-[0.85] hover:!scale-100  p-8 rounded-xl  ">
               <img
                 src={three_d}
                 alt=""
@@ -41,7 +41,7 @@ const Services = () => {
                 Get in Touch
               </button>
             </div>
-            <div className="bg-dark/10 text-black   flex-grow   border-2 border-grey lg:w-[30%] md:w-[30%]  sm:w-[100%] sm:mx-auto duration-300 group-hover:darkblock-blur-[2px] hover:!blur-none group-hover:scale-[0.85] hover:!scale-100  p-8 rounded-xl  ">
+            <div className="bg-white text-black   flex-grow   border-2 border-grey lg:w-[30%] md:w-[30%]  sm:w-[100%] sm:mx-auto duration-300 group-hover:darkblock-blur-[2px] hover:!blur-none group-hover:scale-[0.85] hover:!scale-100  p-8 rounded-xl  ">
               <img
                 src={enclosure}
                 alt=""
@@ -68,7 +68,7 @@ const Services = () => {
                 Get in Touch
               </button>
             </div>
-            <div className="bg-dark/10 text-black  flex-grow  border-2 border-grey lg:w-[30%] md:w-[30%]  sm:w-[100%] sm:mx-auto duration-300 group-hover:darkblock-blur-[2px] hover:!blur-none group-hover:scale-[0.85] hover:!scale-100  p-8 rounded-xl  ">
+            <div className="bg-white text-black  flex-grow  border-2 border-grey lg:w-[30%] md:w-[30%]  sm:w-[100%] sm:mx-auto duration-300 group-hover:darkblock-blur-[2px] hover:!blur-none group-hover:scale-[0.85] hover:!scale-100  p-8 rounded-xl  ">
               <img
                 src={automation}
                 alt=""
@@ -93,7 +93,7 @@ const Services = () => {
                 Get in Touch
               </button>
             </div>{" "}
-            <div className="bg-dark/10 text-black   flex-grow  border-2 border-grey lg:w-[30%] md:w-[30%]  sm:w-[100%] sm:mx-auto duration-300 group-hover:darkblock-blur-[2px] hover:!blur-none group-hover:scale-[0.85] hover:!scale-100  p-8 rounded-xl  ">
+            <div className="bg-white text-black   flex-grow  border-2 border-grey lg:w-[30%] md:w-[30%]  sm:w-[100%] sm:mx-auto duration-300 group-hover:darkblock-blur-[2px] hover:!blur-none group-hover:scale-[0.85] hover:!scale-100  p-8 rounded-xl  ">
               <img src={agri} alt="" className="h-[200px] w-full mx-auto  " />
               <h4 className="uppercase text-xl font-bold ">AGRI AUTOMATION </h4>
               <ShowMore
@@ -113,7 +113,7 @@ const Services = () => {
                 Get in Touch
               </button>
             </div>
-            <div className="bg-dark/10 text-black  flex-grow  border-2 border-grey lg:w-[30%] md:w-[30%]  sm:w-[100%] sm:mx-auto duration-300 group-hover:darkblock-blur-[2px] hover:!blur-none group-hover:scale-[0.85] hover:!scale-100  p-8 rounded-xl  ">
+            <div className="bg-white text-black  flex-grow  border-2 border-grey lg:w-[30%] md:w-[30%]  sm:w-[100%] sm:mx-auto duration-300 group-hover:darkblock-blur-[2px] hover:!blur-none group-hover:scale-[0.85] hover:!scale-100  p-8 rounded-xl  ">
               <img
                 src={electrical_img}
                 alt=""
@@ -139,7 +139,7 @@ const Services = () => {
                 Get in Touch
               </button>
             </div>
-            <div className="bg-dark/10 text-black   flex-grow  border-2 border-grey lg:w-[30%] md:w-[30%]  sm:w-[100%] sm:mx-auto duration-300 group-hover:darkblock-blur-[2px] hover:!blur-none group-hover:scale-[0.85] hover:!scale-100  p-8 rounded-xl  ">
+            <div className="bg-white text-black   flex-grow  border-2 border-grey lg:w-[30%] md:w-[30%]  sm:w-[100%] sm:mx-auto duration-300 group-hover:darkblock-blur-[2px] hover:!blur-none group-hover:scale-[0.85] hover:!scale-100  p-8 rounded-xl  ">
               <img src={cctv} alt="" className="h-[200px] w-full mx-auto  " />
               <h4 className="uppercase text-xl font-bold ">
                 CCTV INSTALLATION AND MAINTENANCE
@@ -160,7 +160,7 @@ const Services = () => {
                 Get in Touch
               </button>
             </div>
-            <div className="bg-dark/10 text-black  border-2 border-grey lg:w-[30%] md:w-[30%]  sm:w-[100%] sm:mx-auto  duration-300 group-hover:darkblock-blur-[2px] hover:!blur-none group-hover:scale-[0.85] hover:!scale-100  p-8 rounded-xl  ">
+            <div className="bg-white text-black  border-2 border-grey lg:w-[30%] md:w-[30%]  sm:w-[100%] sm:mx-auto  duration-300 group-hover:darkblock-blur-[2px] hover:!blur-none group-hover:scale-[0.85] hover:!scale-100  p-8 rounded-xl  ">
               <img
                 src={electronics}
                 alt=""

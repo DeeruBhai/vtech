@@ -13,16 +13,16 @@ function App() {
         <section id="Home" className="h-[100vh]  ">
           <Home />
         </section>
-        <section id="Services" className="h-[100]   bg-gray-100">
+        <section id="Services" className="h-[100%]   bg-gray-100">
           <Services />
         </section>
-        <section id="About" className="h-[100%] ">
+        <section id="About" className="h-[100v%] ">
           <About />
         </section>
-        <section id="Client" className="h-[100vh]   bg-gray-100">
+        <section id="Client" className="h-[100%]   bg-gray-100">
           <Client />
         </section>
-        <section id="Contact" className="h-[100%] ">
+        <section id="Contact" className="h-[100vh] ">
           <Contact />
         </section>
       </div>
