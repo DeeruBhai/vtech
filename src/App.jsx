@@ -16,7 +16,7 @@ function App() {
         <section id="Services" className="h-[100]   bg-gray-100">
           <Services />
         </section>
-        <section id="About" className="h-[100vh]  ">
+        <section id="About" className="h-[100%] ">
           <About />
         </section>
         <section id="Client" className="h-[100vh]   bg-gray-100">
