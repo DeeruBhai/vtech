@@ -22,7 +22,7 @@ function App() {
         <section id="Client" className="h-[100vh]   bg-gray-100">
           <Client />
         </section>
-        <section id="Contact" className="h-[100vh] ">
+        <section id="Contact" className="h-[100%] ">
           <Contact />
         </section>
       </div>

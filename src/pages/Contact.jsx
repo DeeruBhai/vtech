@@ -59,7 +59,7 @@ function Contact() {
           <span className="text-sm font-palanquin ">+91 8428273554 </span>
         </div>
       </div>
-      <div className="w-[35%] relative">
+      <div className="lg:w-[35%] md:w-[100%] sm:w-[100%] relative">
         <motion.div
           initial={{ opacity: 1 }}
           whileInView={{ opacity: 0, zIndex: -1 }}

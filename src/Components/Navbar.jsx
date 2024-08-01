@@ -16,7 +16,7 @@ const Navbar = () => {
       className="px-8 py-4 fixed z-30 w-full  max-container backdrop-blur-md bg-white
 "
     >
-      <nav className="flex justify-between items-center max-container ">
+      <nav className="flex justify-between items-center max-container h-[40px]">
         <a href="#Home">
           <div className="flex flex-col justify-center items-center gap-2"></div>
         </a>
@@ -37,19 +37,19 @@ const Navbar = () => {
           className="hidden max-md:block "
           onClick={() => setHamClick(true)}
         >
-          <img src={hamburgericon} alt="ham" className="w-[0.75rem]" />
+          <img src={hamburgericon} alt="ham" className="w-[1.6rem] h-[2.5rem]" />
         </button>
         {hamClick && (
           <div
             className="fixed h-[100vh] w-screen md:hidden  bg-black/50 backdrop-blur-md top-0 left-0 z-50  transition-all delay-100"
             onClick={() => setHamClick(false)}
           >
-            <div className="text-[#040404]  bg-[#F3F8FF] flex-col absolute right-0 top-0 h-full px-8 pt-2  z-50 flex">
-              <div className="self-start">
+            <div className="text-[#040404]  bg-[#F3F8FF] flex-col absolute right-0 top-0 h-full px-4 pt-2  z-50 flex">
+              <div className="self-start h-[2.5rem] w-[2.5rem]">
                 <img
                   src={closeicon}
                   alt="close"
-                  className="w-[1rem] mb-8 cursor-pointer mt-0"
+                  className="w-[1.8rem] mb-8 cursor-pointer mt-0 h-[2rem]"
                   onClick={() => setHamClick(false)}
                 />
               </div>
