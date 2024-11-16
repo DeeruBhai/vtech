@@ -32,7 +32,7 @@ const Client = () => {
   ];
   return (
     <>
-    <div className=" flex flex-row justify-center h-[100%] w-[100%]  items-center p-4">
+    <div className=" flex flex-row justify-center h-[100%] w-[100%]  items-center p-16">
       <span className="text-black text-center subpixel-antialiased text-4xl  text-inherit w-[80%] border-b-2 border-inherit py-6">
         Our Clients
       </span>

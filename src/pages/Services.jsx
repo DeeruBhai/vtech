@@ -13,7 +13,7 @@ const Services = () => {
     <>
       <div className="font-Poppins  bg-gray-100 text-white w-full h-100 p-8">
         <div className="text-center w-full h-full flex flex-col item-center ">
-          <h1 className="text-black font-weight-bold">Our Services</h1>
+          <h1 className="text-black font-weight-bold text-4xl">Our Services</h1>
           <div className="flex flex-row flex-wrap  lg:p-8  md:p-8 gap-8  group w-full">
             <div className="bg-white text-black  flex-grow   border-2 border-grey lg:w-[30%] md:w-[30%]  sm:w-[100%] sm:mx-auto duration-300 group-hover:darkblock-blur-[2px] hover:!blur-none group-hover:scale-[0.85] hover:!scale-100  p-8 rounded-xl  ">
               <img

@@ -3,7 +3,7 @@ import React from "react";
 const About = () => {
   return (
     <>
-      <div className="flex flex-col  w-full h-[100%]">
+      <div className="flex flex-col  w-full h-[100%] p-20">
         <div className=" flex flex-row justify-center h-[100%] w-[100%]  items-center p-4">
           <span className="text-black text-center subpixel-antialiased text-4xl  text-inherit w-[80%] border-b-2 border-inherit py-6">
             Why Choose us

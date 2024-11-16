@@ -4,9 +4,10 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        hero: "url('src/assets/banner.png')",
+        hero: "url('banner.png')",
       },
     },
   },
   plugins: [],
 };
+//hero: "url('dist/assets/banner.png')",
