@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        hero: "url('banner.png')",
+        hero: "url('/home/das/Documents/vtech/public/banner.png')",
       },
     },
   },
