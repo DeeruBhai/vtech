@@ -16,10 +16,11 @@ function Contact() {
   const isInView = useInView(ref, { margin: "-100px" });
   const sendEmail = (e) => {
     e.preventDefault();
+    console.log(formref,formnameref,formemailref,formmsgref,"formref")
 
     emailjs
-      .sendForm("service_6cygz1i", "template_5x8dk6a", formref.current, {
-        publicKey: "Y-ApHvZfuWfHPg4k8",
+      .sendForm("service_b2ngtot", "template_zayjtdt", formref.current, {
+        publicKey: "j0jrbxo7OCHLXsAGy",
       })
       .then(
         () => {
